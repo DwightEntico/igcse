@@ -1,3 +1,6 @@
+"use client"
+import { Button } from "@/components/ui/button";
+import { Eye } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -32,6 +35,9 @@ export default function Home() {
               Learning
             </a>{" "}
             center.
+            {/* <Button variant={"secondary"} size={"icon"} className="cursor-pointer" onClick={()=>alert("yow")}>
+              <Eye />
+            </Button> */}
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
